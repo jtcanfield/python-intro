@@ -37,7 +37,7 @@ print_even_or_odd(2)
 
 # This returns 2.5, a ?string?
 print(5/2)
-# This returns a full interger, ie 2
+# This returns a full interger, ie 2 (in python 3 and up)
 print(5//2)
 
 
