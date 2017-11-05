@@ -15,6 +15,9 @@ class Greeter:
         if self.excited:
             punct = "!"
         print(self.greeting + " " + name + punct)
+        # String Interpolation
+        message = "%s %s%s" % (self.greeting, name, punct)
+        print(message)
 
 # Now, the classes "self" must be set...
 english_greeter = Greeter()
