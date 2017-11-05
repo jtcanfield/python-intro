@@ -6,4 +6,5 @@ classes.py
 imports.py
 comprehensions.py (working on)
 lists.py (look at print methods)
-packages.py
+packages.py (uneeded)
+/firstproject
