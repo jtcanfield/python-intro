@@ -9,16 +9,17 @@ class Greeter:
         self.excited = excited
         # Also, any variables in init must be declared like above
 
+        # ALWAYS REMEMBER to use self below, or else you will get a "this takes two arguments" error
     def greet(self, name):
         punct = "."
         if self.excited:
             punct = "!"
-        print(self.greeting + " " + name + "!")
+        print(self.greeting + " " + name + punct)
 
 # Now, the classes "self" must be set...
 english_greeter = Greeter()
 spanish_greeter = Greeter("Hola", False)
-french_greeter = Greeter(excited=True, greeting="Bonjour")
+french_greeter = Greeter(excited=False, greeting="Bonjour")
 
 # ...And Called
 english_greeter.greet("Remy")
