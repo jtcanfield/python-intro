@@ -10,4 +10,17 @@ elif a == 2:
 else:
     print("A is NOT 1 or 2")
 
-print("endofline")
+
+# Basic For Loop
+for x in [1, 2, 3]:
+    print("x = " + str(x))
+    # You have to say X is a string because python is strict on type
+
+
+# defining a method
+def helloMethod(name):
+    print("Hello, " + name)
+
+
+
+print("END PROGRAM")
