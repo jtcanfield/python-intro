@@ -17,13 +17,13 @@ for word in wordslist:
 # OR we could use comprehensions!
 # inside of the brackets, the whitespace does not matter
 reversed_words = [reverseword(word) for word in wordslist]
-word_lengths = [len(word) for word in wordslist]
+word_lengths = [len(word) for word in wordslist] #len is .length in JS
 new_word_list = [word for word in wordslist]
 short_word_list = [word for word in wordslist if len(word) < 7]
 print(reversed_words)
 print(word_lengths)
 print(new_word_list)
-print ("short words: ", short_word_list)
+print("short words: ", short_word_list)
 
 
 # JS
