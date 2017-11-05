@@ -1,7 +1,4 @@
 # importing
-from datetime import date
-print(date.today())
-
 # to import from a class from an unspecific directory
 import classes
 en_greeter = classes.Greeter()
@@ -15,3 +12,7 @@ fr_greeter.greet("Jon")
 # Import: from {filename} import {variable}
 from classes import french_greeter
 french_greeter.greet("Remy")
+
+
+from datetime import date
+print(date.today())

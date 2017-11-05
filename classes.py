@@ -16,10 +16,10 @@ class Greeter:
             punct = "!"
         # Normal string
         # print(self.greeting + " " + name + punct)
-        # String Interpolation
+        # Older String Interpolation
         # print("%s %s%s" % (self.greeting, name, punct))
-        message = "%s %s%s" % (self.greeting, name, punct)
-        print(message)
+        # Newer String Interpolation
+        print("{0} {1}{2}".format(self.greeting, name, punct))
 
 # Now, the classes "self" must be set...
 english_greeter = Greeter()
