@@ -7,7 +7,11 @@ import classes
 en_greeter = classes.Greeter()
 en_greeter.greet("class")
 
-# from greeter import classes
+# Import: from {filename} import {classname}
 from classes import Greeter
 fr_greeter = Greeter("Bonjour")
 fr_greeter.greet("Jon")
+
+# Import: from {filename} import {variable}
+from classes import french_greeter
+french_greeter.greet("Remy")

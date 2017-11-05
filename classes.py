@@ -30,9 +30,7 @@ french_greeter = Greeter(excited=False, greeting="Bonjour") # ...or set them man
 # english_greeter.greet("Remy")
 # spanish_greeter.greet("Remy")
 # french_greeter.greet("Remy")
-
-# Or if you want to take a shortcut
-# Greeter("Hello").greet("Shorty")
+# Greeter("Hello").greet("Shorty") # this is a shorter way to do it
 
 
 # Multi-line String
