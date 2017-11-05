@@ -17,10 +17,23 @@ for x in [1, 2, 3]:
     # You have to say X is a string because python is strict on type
 
 
-# defining a method
+# Defining a method
 def helloMethod(name):
     print("Hello, " + name)
 
+helloMethod("Jonathan")
+helloMethod("Julie")
 
+# Nesting Statements
+def print_even_or_odd(num):
+    if num % 2 == 0:
+        print(str(num) + " is even")
+    else:
+        print(str(num) + " is odd")
+
+
+print_even_or_odd(0)
+print_even_or_odd(1)
+print_even_or_odd(2)
 
 print("END PROGRAM")
