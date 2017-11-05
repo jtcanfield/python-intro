@@ -31,9 +31,14 @@ def print_even_or_odd(num):
     else:
         print(str(num) + " is odd")
 
-
 print_even_or_odd(0)
 print_even_or_odd(1)
 print_even_or_odd(2)
+
+# This returns 2.5, a ?string?
+print(5/2)
+# This returns a full interger, ie 2
+print(5//2)
+
 
 print("END PROGRAM")
