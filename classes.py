@@ -14,8 +14,10 @@ class Greeter:
         punct = "."
         if self.excited:
             punct = "!"
-        print(self.greeting + " " + name + punct)
+        # Normal string
+        # print(self.greeting + " " + name + punct)
         # String Interpolation
+        # print("%s %s%s" % (self.greeting, name, punct))
         message = "%s %s%s" % (self.greeting, name, punct)
         print(message)
 
@@ -25,16 +27,16 @@ spanish_greeter = Greeter("Hola", False) # You can call it in order of the init.
 french_greeter = Greeter(excited=False, greeting="Bonjour") # ...or set them manually
 
 # ...And Called
-english_greeter.greet("Remy")
-spanish_greeter.greet("Remy")
-french_greeter.greet("Remy")
+# english_greeter.greet("Remy")
+# spanish_greeter.greet("Remy")
+# french_greeter.greet("Remy")
 
 # Or if you want to take a shortcut
-Greeter("Hello").greet("Shorty")
+# Greeter("Hello").greet("Shorty")
 
 
 # Multi-line String
 multi_line_string = """
 Hello!
 """
-print(multi_line_string)
+# print(multi_line_string)
