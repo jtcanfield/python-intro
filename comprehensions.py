@@ -16,6 +16,8 @@ for word in wordslist:
 
 # OR we could use comprehensions!
 # inside of the brackets, the whitespace does not matter
+# Comprehensions create a new thing based on:
+# [{new thing to do} for thing in {listname}]
 reversed_words = [reverseword(word) for word in wordslist]
 word_lengths = [len(word) for word in wordslist] #len is .length in JS
 new_word_list = [word for word in wordslist]
